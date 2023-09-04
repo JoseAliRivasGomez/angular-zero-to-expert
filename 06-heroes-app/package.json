@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "backend": "json-server --watch data/db.json",
-    "start": "npm run backend && ng serve",
+    "start": "ng serve",
+    "start:all": "npm run backend && npm start",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
