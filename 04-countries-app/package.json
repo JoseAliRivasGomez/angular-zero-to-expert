@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start": "serve docs -s -n -L -p $PORT"
+    "start": "serve dist/country-app -s -n -L -p 4000"
   },
   "private": true,
   "dependencies": {
