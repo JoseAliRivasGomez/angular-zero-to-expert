@@ -5,7 +5,7 @@
     "ng": "ng",
     "backend": "json-server --watch data/db.json",
     "dev": "ng serve",
-    "start": "serve dist/country-app -s -n -L -p $PORT",
+    "start": "serve dist/heroes-app -s -n -L -p $PORT",
     "start:prod": "ng serve --configuration production",
     "start:all": "concurrently \"npm run backend\" \"npm run start\"",
     "build": "ng build",
